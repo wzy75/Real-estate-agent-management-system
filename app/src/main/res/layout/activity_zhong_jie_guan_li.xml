@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhong_jie_guan_li"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wangzeyu.wzyzhongjie.ZhongJieGuanLiActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/life_02006"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton" />
+
+    <TextView
+        android:text="房源状态设置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/imageButton"
+        android:id="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/life_05001_blue"
+        android:id="@+id/imageButton2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="业务设置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/life_05012"
+        android:id="@+id/imageButton3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="成交管理"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton3"
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="修改用户信息"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/imageButton4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ysh_address_book_blue"
+        android:id="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_toEndOf="@+id/imageButton4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:text="用户房源匹配"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton5"
+        android:id="@+id/textView7"
+        android:gravity="center"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_alignEnd="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/life_01006_blue"
+        android:id="@+id/imageButton6"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:text="回收站管理"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:id="@+id/textView8"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/imageButton6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outlet_main_booking_card_activate"
+        android:id="@+id/imageButton4"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

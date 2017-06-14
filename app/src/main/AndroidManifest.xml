@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wangzeyu.wzyzhongjie">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".context.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SelectActivity"
+            android:label="管理"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <activity
+            android:name=".zhuCeActivity"
+            android:label="注册" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="登录">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ZhongJieGuanLiActivity"
+            android:label="中介管理">
+            >
+        </activity>
+        <activity
+            android:name=".CardOnclick_Activity"
+            android:label="购买" />
+        <activity
+            android:name=".YongHuXinXiBiao"
+            android:label="已注册用户信息" />
+        <activity android:name=".XiuGaiinfoActivity"
+            android:label="修改信息"></activity>
+    </application>
+
+</manifest>

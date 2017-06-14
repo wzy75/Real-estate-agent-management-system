@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buyHome"
+            android:icon="@drawable/emo016"
+            android:title="买房" />
+        <item
+            android:id="@+id/sellHome"
+            android:icon="@drawable/emo014"
+            android:title="卖房" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/zhongjiemamage"
+                android:icon="@drawable/emo045"
+                android:title="中介管理" />
+        </menu>
+    </item>
+
+</menu>
